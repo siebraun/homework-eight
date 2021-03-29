@@ -1,0 +1,71 @@
+.contact-wrapper{
+    width: 700px;
+    height: 100%;
+    margin-left: 500px;
+    padding-top: 190px;
+    display: flex;
+    justify-content: space-between;
+
+
+    .contact-info{
+        h1{
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+
+        p{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 15px;
+        }
+    }
+
+    .contact-form{
+        form{ max-width:420px;
+            }
+    
+        .contact {
+            color:black;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:500;
+            font-size: 14px;
+            line-height: 22px;
+            background-color: transparent;
+            border:2px solid black;
+            padding: 13px;
+            margin-bottom: 15px;
+            width:100%;
+            box-sizing: border-box;
+            outline:0;
+          }
+          
+          .feedback-input:focus { border:2px solid black; }
+          
+          textarea {
+            height: 150px;
+            line-height: 150%;
+            resize:vertical;
+          }
+          
+          [type="submit"] {
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 40px;
+            padding-bottom: 20px;
+            width: 100%;
+            background:black;
+            border:0;
+            color:white;
+            font-size:24px;
+            padding-top:10px;
+            padding-bottom:10px;
+            transition: all 0.3s;
+            margin-top:-4px;
+            font-weight:700;
+          }
+          [type="submit"]:hover { background:rgb(68, 68, 68); }
+    }
+}

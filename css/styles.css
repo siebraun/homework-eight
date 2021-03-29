@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  position: fixed;
+  width: 200px;
+  height: 100px;
+  z-index: 99;
+  margin-top: 50px;
+  left: 206px;
+}
+nav h1 {
+  font-family: le-monde-livre-classic-byol, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 20px;
+  letter-spacing: -2px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  line-height: 250%;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.gallery-wrapper {
+  width: 830px;
+  height: 100%;
+  margin-left: 500px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-wrapper .column {
+  width: 400px;
+  height: 100px;
+  background-color: red;
+}
+.gallery-wrapper .column .photo {
+  width: 400px;
+  margin-bottom: 30px;
+}
+.gallery-wrapper .column #l-photo1 {
+  height: 450px;
+  background-color: black;
+}
+.gallery-wrapper .column #l-photo2 {
+  height: 200px;
+  background-color: darkgray;
+}
+.gallery-wrapper .column #l-photo3 {
+  height: 400px;
+  background-color: #505050;
+}
+.gallery-wrapper .column #r-photo1 {
+  height: 300px;
+  background-color: #686868;
+}
+.gallery-wrapper .column #r-photo2 {
+  height: 200px;
+  background-color: black;
+}
+.gallery-wrapper .column #r-photo3 {
+  height: 400px;
+  background-color: #303030;
+}
+
+.about-wrapper {
+  width: 830px;
+  height: 100%;
+  margin-left: 500px;
+  padding-top: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-wrapper .about-photo {
+  width: 350px;
+  height: 350px;
+  background-color: black;
+}
+.about-wrapper .about-text {
+  width: 450px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.clients-wrapper {
+  width: 830px;
+  height: 100%;
+  margin-left: 500px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.clients-wrapper .client-examples {
+  width: 430px;
+  display: flex;
+  justify-content: space-around;
+}
+.clients-wrapper .client-examples .example-column {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.clients-wrapper .client-examples .example-photo {
+  width: 175px;
+  height: 175px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+.clients-wrapper .clients-text {
+  width: 350px;
+}
+.clients-wrapper .clients-text h1 {
+  font-family: le-monde-livre-classic-byol, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  padding-bottom: 20px;
+  letter-spacing: -2px;
+}
+.clients-wrapper .clients-text .columns {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-wrapper .clients-text .columns .column {
+  width: 150px;
+}
+.clients-wrapper .clients-text .columns .column p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.contact-wrapper {
+  width: 700px;
+  height: 100%;
+  margin-left: 500px;
+  padding-top: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-wrapper .contact-info h1 {
+  font-family: le-monde-livre-classic-byol, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.contact-wrapper .contact-info p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.contact-wrapper .contact-form form {
+  max-width: 420px;
+}
+.contact-wrapper .contact-form .contact {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+.contact-wrapper .contact-form .feedback-input:focus {
+  border: 2px solid black;
+}
+.contact-wrapper .contact-form textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+.contact-wrapper .contact-form [type=submit] {
+  font-family: le-monde-livre-classic-byol, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+  background: black;
+  border: 0;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+.contact-wrapper .contact-form [type=submit]:hover {
+  background: #444444;
+}

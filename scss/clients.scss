@@ -1,0 +1,60 @@
+.clients-wrapper{
+    width: 830px;
+    height: 100%;
+    margin-left: 500px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+    .client-examples{
+        width: 430px;
+        display: flex;
+        justify-content: space-around;
+
+        .example-column{
+            width: 200px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .example-photo{
+            width: 175px;
+            height: 175px;
+            margin-bottom: 20px;
+            background-color: black;
+        }
+    }
+
+
+
+    .clients-text{
+        width: 350px;
+
+        h1{
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 30px;
+            padding-bottom: 20px;
+            letter-spacing: -2px;
+        }
+    
+        .columns{
+            display: flex;
+            justify-content: space-between;
+    
+            .column{
+                width: 150px;
+    
+                p{
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 15px;
+                }
+            }
+        }   
+    }
+
+}
